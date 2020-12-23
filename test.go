@@ -35,8 +35,8 @@ func makeData() human {
 
 const SIZE = 10
 
+// logic testing
 func main() {
-
 	lookup := make(map[string]human, SIZE)
 	stringmap := make([]string, 0)
 	wk8om := wk8.New()
@@ -52,7 +52,7 @@ func main() {
 		elli.Set(key, data)
 		iterom.Add(key, data)
 	}
-	fmt.Println(lookup)
+	//fmt.Println(lookup)
 	keymap := make([]int, 0)
 	for i:=0;i<SIZE;i++ {
 		keymap = append(keymap, i)
@@ -61,6 +61,8 @@ func main() {
 		keymap [i], keymap[j] = keymap [j], keymap[i]
 	})
 	fmt.Println(wk8om)
+	fmt.Println(elli)
+	fmt.Println(iterom)
 	for key := range keymap {
 		wk8om.Delete(stringmap[key])
 		elli.Delete(stringmap[key])
