@@ -3,9 +3,7 @@
 Since the native map of the GO is not an order stable structure, we must sort a map or use an ordered map structure to resolve the problem that we faced.
 So, I decide to test the performance of the varying map.
 
-Test the performance of the map structure with Go native map, ordered map(made by users on Github) 
-
-Test five map structure:
+Test the performance of the map structure with Go native map, ordered map(made by users on Github) :
 ```
 1. map
 2. map(sorted by key)
