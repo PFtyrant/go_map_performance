@@ -12,7 +12,7 @@ Test the performance of the map structure with Go native map, ordered map(made b
 5. Ordered map("github.com/mantyr/iterator")
 ```
 
-TEST data:
+Test data:
 ```
 type human struct {
 	Name string
